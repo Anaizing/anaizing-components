@@ -1,5 +1,5 @@
 import React from 'react'
-import Anaizing from '../../../components/Anaizing/Anaizing'
+import Anaizing from 'anaizing-components/Anaizing'
 
 /** Custom message */
 export default function ExampleAnaizing(){
