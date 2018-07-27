@@ -1,11 +1,13 @@
 /* Global styles */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #666666;
+  color: #ccc;
+  background-image: url('https://cdn.suwalls.com/wallpapers/vector/watermelon-20323-2560x1600.jpg');
+  background-size: 159vh;
 }
 
 a, a:visited {
-  color: #666666;
+  color: #6fdc6f;
 }
 
 .clear {
@@ -46,7 +48,7 @@ table {
 
 .props th, td {
   text-align: left;
-  padding: 5px;
+  padding: 10px;
 }
 
 .navigation {
