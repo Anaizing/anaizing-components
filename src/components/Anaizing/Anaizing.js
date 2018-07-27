@@ -6,6 +6,9 @@ function Anaizing({message}) {
 }
 
 Anaizing.propTypes = {
+    /**
+     * Message to display
+     */
     message: PropTypes.string
 }
 
