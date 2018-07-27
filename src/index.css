@@ -69,3 +69,10 @@ table {
   background: rgba(0, 0, 0, 0.7);
   padding: 15px;
 }
+
+::selection {
+  background: #468966; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #468966; /* Gecko Browsers */
+}
