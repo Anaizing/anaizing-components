@@ -18,6 +18,7 @@ export default class Docs extends React.Component {
             this.setState({ route: window.location.hash.substr(1) })
         })
     }
+    
 //* here in render we are using the route stored in state to get our hands on the corresponding component, by 
 //* convention the route and the url should match the components name, this will keep our routing very simple
 //* if there is no route specified we'll just display the first component in the list
