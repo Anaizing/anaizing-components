@@ -4,7 +4,7 @@ import hljs from 'highlight.js/lib/highlight'
 import javascript from 'highlight.js/lib/languages/javascript'
 
 //*This way is easy, but adds 170K gzipped to bundle since all langs are included.
-// import Highlight from 'react-highlight';
+//import Highlight from 'react-highlight';
 
 class CodeExample extends React.Component {
     componentDidMount() {
