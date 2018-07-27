@@ -3,13 +3,15 @@
 body {
   font-family: 'Poiret One', cursive;
   color: #eee;
-  background-image: url('https://img.freepik.com/free-vector/pattern-of-watermelon_1191-227.jpg?size=338&ext=jpg');
-  background-size: 350px;
+  background-image: url('https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?ixlib=rb-0.3.5&s=0848fb62c3dfdec67175bb0bce76a9b5&auto=format&fit=crop&w=924&q=80');
+  background-color: #272C26;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 a, a:visited {
   color:  #F0FF00;
-  text-shadow: 2px 2px 3px darkgreen;
+  text-shadow: 2px 2px 3px #222;
   padding: 10px;
   text-decoration: none;
 }
@@ -32,10 +34,10 @@ table {
 
 /* Documentation site component styles */
 .example {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   padding: 16px;
   margin-bottom: 16px;
-  background-color: #008E34;
+  background-color: #111;
 }
 
 .example h4:first-of-type {
@@ -63,7 +65,7 @@ table {
 }
 
 .componentpage {
-  margin-left: 275px;
+  margin-left: 30%;
   background: rgba(0, 0, 0, 0.7);
   padding: 15px;
 }
