@@ -14,6 +14,8 @@ a, a:visited {
   text-shadow: 2px 2px 3px #222;
   padding: 10px;
   text-decoration: none;
+  cursor: crosshair;
+  line-height: 25px;
 }
 
 .clear {
