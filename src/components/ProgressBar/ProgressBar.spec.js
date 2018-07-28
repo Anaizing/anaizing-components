@@ -1,7 +1,7 @@
 import React from 'react'
+import ProgressBar from './ProgressBar'
 import {shallow, configure} from 'enzyme'
 import * as enzyme from 'enzyme'
-import ProgressBar from './ProgressBar'
 import  Adapter from 'enzyme-adapter-react-16'
 
 enzyme.configure({ adapter: new Adapter() })
