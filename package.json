@@ -27,6 +27,7 @@
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
+    "gh-pages": "^1.2.0",
     "highlight.js": "^9.12.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "^23.4.2",
@@ -48,14 +49,17 @@
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
   },
+  "homepage": "http://anaizing.github.io/anaizing-components",
   "scripts": {
     "prestart": "npm run gen:docs",
     "start": "npm-run-all --parallel start:docs gen:docs-watch",
     "start:docs": "node scripts/start.js",
     "gen:docs": "node scripts/generateComponentData.js",
     "gen:docs-watch": "npm run gen:docs -- --watch",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "build:docs": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy:docs": "npm run build:docs",
+    "deploy:docs": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
