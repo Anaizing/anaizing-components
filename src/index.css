@@ -76,3 +76,7 @@ table {
 ::-moz-selection {
   background: #468966; /* Gecko Browsers */
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}

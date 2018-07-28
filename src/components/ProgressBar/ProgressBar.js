@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+//* For this component we are hard coding some decisions, making it less flexible
+//* but easier to work with, maintain, and test.
 class ProgressBar extends React.Component {
   getColor = (percent) => {
     if (this.props.percent === 100) return 'green';
