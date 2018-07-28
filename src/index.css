@@ -16,6 +16,7 @@ a, a:visited {
   text-decoration: none;
   cursor: crosshair;
   line-height: 25px;
+  padding-top: 0px;
 }
 
 .clear {
@@ -61,7 +62,7 @@ table {
 
 .navigation {
   float: left;
-  width: 250px;
+  width: 30%;
   list-style-type: none;
   padding: 0;
 }
