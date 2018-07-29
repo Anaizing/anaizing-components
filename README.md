@@ -9,7 +9,8 @@ npm install anaizing-components
 ```
 
 ## Docs
-[Component Documentation](https://anaizing.github.io/anaizing-components/)
+
+[Component Documentation](https://anaizing.github.io/anaizing-components/)👀
 
 <br>
 
