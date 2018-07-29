@@ -12,6 +12,13 @@ npm install anaizing-components
 [Component Documentation](https://anaizing.github.io/anaizing-components/)
 
 
+<br>
+
+![Screenshot of docs page](ComponentDocs.png)
+
+<br>
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
