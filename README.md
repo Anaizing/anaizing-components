@@ -13,7 +13,7 @@ npm install anaizing-components
 
 <br>
 
-Click the link above to see the docs, complete with code examples and syntax highlighting!!
+Click the link above to see the docs, complete with code examples, syntax highlighting and even the props each component takes so you can customise it. Enjoy!!!
 
 
 <br>
