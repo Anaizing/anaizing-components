@@ -1,4 +1,4 @@
-# anaizing-components
+# anaizing-components 📚
 
 A library of React components that incorporates atomic design principles in composition.
 
