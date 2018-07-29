@@ -58,8 +58,8 @@
     "gen:docs-watch": "npm run gen:docs -- --watch",
     "build:docs": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "predeploy:docs": "npm run build:docs",
-    "deploy:docs": "gh-pages -d build"
+    "predeploy": "npm run build:docs",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [

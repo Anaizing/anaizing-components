@@ -1,5 +1,15 @@
 # anaizing-components
 
+A library of React components that incorporates atomic design principles in composition.
+
+## Install
+
+```
+npm install anaizing-components
+```
+
+## Docs
+[Component Documentation](https://anaizing.github.io/anaizing-components/)
 
 
 
