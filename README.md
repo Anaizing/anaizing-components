@@ -18,6 +18,9 @@ npm install anaizing-components
 
 <br>
 
+![Screenshot of docs page](SyntaxHighlighting.png)
+
+
 
 
 
