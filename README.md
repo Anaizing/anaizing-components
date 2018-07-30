@@ -11,7 +11,6 @@ npm install anaizing-components
 ## Docs
 
 [Component Documentation](https://anaizing.github.io/anaizing-components/) 👀
-
 <br>
 
 Click the link above to see the docs, complete with code examples, syntax highlighting and even the props each component takes so you can customise it. Enjoy!!!
